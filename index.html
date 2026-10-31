@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0df">
+  <meta name="description" content="Conoce La Chila y calcula el precio de venta de sus salsas.">
+  <title>La Chila | Metodo de precios</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="nav" aria-label="Navegacion principal">
+      <a class="nav-brand" href="#inicio"><span aria-hidden="true">&#127798;</span> La Chila</a>
+      <a class="nav-link" href="#metodo">Nuestro metodo</a>
+      <a class="nav-link nav-cta" href="#calculadora">Calcular precio <span aria-hidden="true">&#8594;</span></a>
+    </nav>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Salsas para cada ocasion</p>
+        <h1>Sabor que<br><em>se disfruta.</em></h1>
+        <p class="hero-text">Salsas hechas para darle vida a tus platillos. Conoce como calculamos un precio justo que cubra cada ingrediente y permita que La Chila siga creciendo.</p>
+        <a class="button button-dark" href="#metodo">Conoce el metodo <span aria-hidden="true">&#8594;</span></a>
+        <div class="hero-detail"><span class="detail-icon">40%</span><span>Margen de ganancia<br>sobre el costo total</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustracion de un chile rojo">
+        <div class="art-sun"></div><div class="art-ring"></div>
+        <div class="art-leaf leaf-one"></div><div class="art-leaf leaf-two"></div>
+        <div class="pepper-art"><span></span></div>
+        <span class="art-spark spark-one">&#10022;</span><span class="art-spark spark-two">&#10022;</span>
+        <div class="art-stamp">TE PICA<br><strong>RICO</strong></div>
+      </div>
+    </div>
+    <div class="hero-bottom"><span>Roja</span><i></i><span>Verde</span><i></i><span>Macha</span><span class="hero-bottom-note">Hecho con sabor, pensado con cuidado.</span></div>
+  </header>
+
+  <main>
+    <section class="method section" id="metodo">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Precio claro, sabor completo</p>
+        <h2>Como determinamos<br>el precio de venta</h2>
+        <p>Usamos el metodo basado en costos: primero calculamos cuanto cuesta producir cada frasco y despues agregamos un margen de ganancia del 40%.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-icon">01</div>
+        <div><h3>Precio basado en el costo</h3><p>Este metodo ayuda a cubrir los gastos de elaboracion y a establecer una utilidad para el crecimiento de La Chila.</p></div>
+        <div class="margin-badge"><strong>+40%</strong><span>de margen</span></div>
+      </div>
+    </section>
+
+    <section class="sauces section" aria-labelledby="sauces-title">
+      <div class="section-topline"><div><p class="eyebrow"><span class="eyebrow-line"></span> Una para cada antojo</p><h2 id="sauces-title">La familia de salsas</h2></div><p class="section-aside">Tres sabores para ponerle<br>un toque especial a tu mesa.</p></div>
+      <div class="sauce-grid">
+        <article class="sauce-card sauce-red"><div class="sauce-art"><span class="sauce-pepper">&#127798;</span><span class="sauce-tomato">&#10022;</span></div><div class="sauce-info"><span class="sauce-number">01 / CLASICA</span><h3>Salsa Roja</h3><p>El toque intenso y tradicional para tus platillos favoritos.</p><span class="bottle">Frasco sugerido <b>150 ml</b></span></div></article>
+        <article class="sauce-card sauce-green"><div class="sauce-art"><span class="sauce-pepper">&#127798;</span><span class="sauce-tomato">&#10022;</span></div><div class="sauce-info"><span class="sauce-number">02 / FRESCA</span><h3>Salsa Verde</h3><p>Un sabor fresco que acompana cada bocado.</p><span class="bottle">Frasco sugerido <b>150 ml</b></span></div></article>
+        <article class="sauce-card sauce-macha"><div class="sauce-art"><span class="sauce-pepper">&#127798;</span><span class="sauce-tomato">&#10022;</span></div><div class="sauce-info"><span class="sauce-number">03 / INTENSA</span><h3>Salsa Macha</h3><p>Un toque crujiente, sabroso y lleno de caracter.</p><span class="bottle">Frasco sugerido <b>150 ml</b></span></div></article>
+      </div>
+    </section>
+
+    <section class="costs section" aria-labelledby="costs-title">
+      <div class="costs-intro"><p class="eyebrow"><span class="eyebrow-line"></span> Cada detalle cuenta</p><h2 id="costs-title">Que se incluye<br>en el costo</h2><p>Sumamos los gastos necesarios para preparar y presentar cada frasco.</p></div>
+      <div class="cost-list">
+        <article class="cost-item"><span class="cost-num">01</span><div><h3>Ingredientes</h3><p>Chiles, tomates, especias, aceite y los demas insumos de la receta.</p></div><span class="cost-mark">+</span></article>
+        <article class="cost-item"><span class="cost-num">02</span><div><h3>Envase y presentacion</h3><p>Frasco, tapa, etiqueta y materiales de empaque.</p></div><span class="cost-mark">+</span></article>
+        <article class="cost-item"><span class="cost-num">03</span><div><h3>Elaboracion</h3><p>Gas, electricidad, agua y tiempo de preparacion.</p></div><span class="cost-mark">+</span></article>
+        <article class="cost-item"><span class="cost-num">04</span><div><h3>Costos indirectos</h3><p>Traslado, limpieza y otros gastos relacionados con la produccion.</p></div><span class="cost-mark">=</span></article>
+      </div>
+    </section>
+
+    <section class="calculator-section" id="calculadora">
+      <div class="calculator-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Haz la cuenta</p><h2>Calcula tu precio<br>de venta</h2><p>Ingresa el costo de producir un frasco. La calculadora agrega el margen del 40%.</p><div class="formula-pill">Precio de venta <span>=</span> Costo total <b>&times; 1.40</b></div></div>
+      <form class="calculator" id="price-calculator">
+        <label for="product">Producto</label>
+        <select id="product" name="product"><option>Salsa Roja</option><option>Salsa Verde</option><option>Salsa Macha</option></select>
+        <label for="cost">Costo total por frasco</label>
+        <div class="money-input"><span>$</span><input id="cost" name="cost" type="number" min="0" step="0.01" value="50" inputmode="decimal" aria-describedby="cost-help"><span class="currency">MXN</span></div>
+        <small id="cost-help">Incluye ingredientes, envase, elaboracion y costos indirectos.</small>
+        <div class="result" aria-live="polite"><div><span>Precio sugerido</span><strong id="sale-price">$70.00</strong></div><div><span>Utilidad estimada</span><strong id="profit">$20.00</strong></div></div>
+        <p class="calculator-footnote">Ejemplo orientativo. Ajusta el precio segun tus costos y el mercado.</p>
+      </form>
+    </section>
+    <section class="closing"><span class="closing-chile">&#127798;</span><p>Con sabor y cuentas claras.</p><h2>La Chila</h2><span class="closing-tag">TE PICA RICO</span></section>
+  </main>
+  <footer><span>&copy; <span id="year"></span> La Chila</span><span>Salsas para cada ocasion</span><a href="#inicio">Volver arriba &#8593;</a></footer>
+</body>
+</html>
